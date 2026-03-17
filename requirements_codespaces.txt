@@ -1,0 +1,14 @@
+pytesseract
+easyocr
+pokerkit
+opencv-python-headless
+Pillow
+numpy
+PyYAML
+rich
+typer[all]
+pandas
+matplotlib
+scipy
+tqdm
+requests

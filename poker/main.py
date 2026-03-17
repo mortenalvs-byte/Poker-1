@@ -276,7 +276,7 @@ class ThreadManager(threading.Thread):
 # ==== MAIN PROGRAM =====
 
 def run_poker():
-    init_logger(screenlevel=logging.INFO, filename='deepmind_pokerbot', logdir='log')
+    init_logger(screenlevel=logging.INFO, filename='deepmind_pokerbot', logdir=get_dir('log'))
     # print(f"Screenloglevel: {screenloglevel}")
     log = logging.getLogger("")
     log.info("Initializing program")
@@ -305,7 +305,7 @@ def run_poker():
     app = QtWidgets.QApplication(sys.argv)
     global ui  # pylint: disable=global-statement
     ui = UiPokerbot()
-    ui.setWindowIcon(QtGui.QIcon('gui/ui/icon.ico'))
+    ui.setWindowIcon(QtGui.QIcon(get_dir('gui', 'ui', 'icon.ico')))
 
     gui_signals = UIActionAndSignals(ui)
 
