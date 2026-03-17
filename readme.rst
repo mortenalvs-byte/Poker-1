@@ -174,7 +174,7 @@ Notes to keep in mind:
 Running via docker
 ------------------------------
 
-- ``$ git clone https://github.com/dickreuter/Poker.git``
+- ``$ git clone https://github.com/mortenalvs-byte/morten.git``
 - ``$ cd Poker``
 - ``$ docker compose up -d``
 - ``$ xhost local:root # This permits the root user on the local machine to connect to X windows display``
@@ -301,7 +301,7 @@ Analyzing the log and reporting problems
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - In the folder where you installed the pokerbot, there is a subfolder with the log files in /log. There are also screenshots in /log/screenshots that may be able to help debug the problem.
-- Create a issue on the link at the top of this github page https://github.com/dickreuter/Poker/issues or email dickreuter@gmail.com.
+- Create a issue on the link at the top of this github page https://github.com/mortenalvs-byte/morten/issues or email dickreuter@gmail.com.
 
 
 Related projects

@@ -70,14 +70,14 @@ function NavBar() {
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="https://github.com/dickreuter/Poker" onClick={() => handleNavLinkClick('Source Code')}>
+            <a className="nav-link" href="https://github.com/mortenalvs-byte/morten" onClick={() => handleNavLinkClick('Source Code')}>
               Source code
             </a>
           </li>
           <li className="nav-item">
             <a
               className="nav-link"
-              href="https://github.com/dickreuter/Poker/blob/master/readme.rst"
+              href="https://github.com/mortenalvs-byte/morten/blob/master/readme.rst"
               onClick={() => handleNavLinkClick('Documentation')}
             >
               Documentation
